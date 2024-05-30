@@ -1,6 +1,79 @@
+/*Global*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+:root{
+  font-size: 62.5%;
+  --base-font: "Mulish", sans-serif;
+  --accenty-color:#B52184;
+  --text-base-color:#312D64;
+
+}
+
+body{
+  font-family: var(--base-font);
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+h1{
+  font-size: 3.2rem;
+  line-height: 4rem;
+  color: var(--accenty-color);
+  font-weight: 900;
+
+  margin: 1.7rem auto 0.5rem;
+}
+
+h2{
+}
+
+P{
+  font-size: 1.6rem;
+  color: var(--text-base-color);
+  font-weight: 600;
+  line-height: 2rem;
+}
+/**/
+
+/*Hero Section*/
+#hero{
+  padding: 0 3.4rem 9.3rem 3.2rem;
+  text-align: center;
+  height: 100vh;
+}
+.astronaut{
+  min-width: 34.6rem;
+}
+#hero .hero-text p{
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 3.5rem;
+}
+#hero .hero-text .button-down{
+  width: 5.8rem;
+  height: 10.5rem;
+  border: .4rem solid var(--accenty-color);
+  display: flex;
+  justify-content: center;
+  border-radius: 7.6rem;
+  margin: 0 auto;
+
+  transition: filter .3s;
+}
+#hero .hero-text .button-down img{
+  width: 3rem;
+}
+
+#hero .hero-text .button-down:hover{
+  filter: brightness(0.7);
+}
+/*Cards Section*/
