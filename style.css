@@ -12,11 +12,13 @@
   --base-font: "Mulish", sans-serif;
   --accenty-color:#B52184;
   --text-base-color:#312D64;
-
+  --cards-gradient: linear-gradient(96.21deg, #344193 0%, #302C63 99.68%);
+  --cards-bg: #fff;
 }
 
 body{
   font-family: var(--base-font);
+  background: #fbefff;
 }
 
 img{
@@ -33,7 +35,12 @@ h1{
   margin: 1.7rem auto 0.5rem;
 }
 
-h2{
+h3{
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 900;
+  color: var(--accenty-color);
+  margin: 3.3rem auto 1.9rem;
 }
 
 P{
@@ -76,4 +83,23 @@ P{
 #hero .hero-text .button-down:hover{
   filter: brightness(0.7);
 }
+/**/
+
 /*Cards Section*/
+#cards{
+  background: var(--cards-gradient);
+  padding: 5.2rem 3.9rem;
+  display: grid;
+  gap: 4.9rem;
+}
+
+#cards .card{
+  background: var(--cards-bg);
+  padding: 2.6rem;
+  border-radius: 2rem;
+}
+
+#cards .card img{
+  width: 8rem;
+
+}
