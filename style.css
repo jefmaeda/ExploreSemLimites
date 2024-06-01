@@ -151,3 +151,13 @@ textarea {
   height: 12.6rem;
   resize: none;
 }
+
+#contact form button{
+  background: var(--cards-gradient);
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  font-size: 1.4rem;
+  color: var(--cards-bg);
+}
