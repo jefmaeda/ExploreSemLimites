@@ -135,11 +135,15 @@ textarea {
   border: 1.5px solid var(--text-base-color);
   border-radius: 1.6rem;
   width: 100%;
-  padding: 1.2rem 1.6rem 1.4rem;
+  padding: 1.2rem 1.3rem 1.4rem;
 
   font-size: 1.6rem;
   line-height: 1.6rem;
   font-weight: 600;
+}
+
+#contact form input{
+  padding: 1.2rem 1.3rem 1.4rem 4rem;
 }
 
 #contact form input::placeholder,
@@ -160,4 +164,36 @@ textarea {
   line-height: 2.4rem;
   font-size: 1.4rem;
   color: var(--cards-bg);
+
+  transition: filter .3s;
+}
+
+#contact form button:hover{
+  filter: brightness(0.9);
+}
+
+#name{
+  background-image: url(./assets/person.svg);
+  background-repeat: no-repeat;
+  background-position: 1.4rem 1.2rem;
+}
+
+#email{
+  background-image: url(./assets/email.svg);
+  background-repeat: no-repeat;
+  background-position: 1.4rem 1.2rem;
+}
+
+
+footer{
+  text-align: center;
+  padding: 1.6rem;
+  background-color: var(--text-base-color);
+}
+
+footer p{
+  color: var(--cards-bg);
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 600;
 }
