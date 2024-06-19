@@ -1,0 +1,42 @@
+@media (min-width: 820px){
+  h1{
+    font-size: 4rem;
+  }
+
+  #hero{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 100%;
+    padding: 0 2.9rem 10.3rem 10.9rem;
+    max-height: 83.6rem;
+  }
+
+  #hero .hero-text .button-down{
+    margin: 0;
+  }
+
+  #hero .hero-text p{
+    margin-bottom: 10rem;
+  }
+
+  #hero .hero-text{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+}
+
+@media (min-width: 1440px){
+  h1{
+    font-size: 6rem;
+    line-height: 7.4rem;
+    margin-bottom: 0.8rem;
+  }
+
+    #hero .hero-text p{
+      font-size: 3.2rem;
+      line-height: 4rem;
+      margin-bottom: 17.9rem;
+  }
+}
